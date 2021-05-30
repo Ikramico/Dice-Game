@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-color: rgb(1, 155, 83);
+}
+.main{
+    margin: auto;
+    font-family: monospace;
+}
+
+.board{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+    position: relative;
+    height: 500px;
+    width: 80%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 10px rgba(58, 58, 58, 0.514);
+    margin: 7%;
+    
+    
+}
+
+.win{
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    text-align: center;
+}
+.new{
+    background-color: rgb(3, 219, 219);
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.gem{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top: 150px;
+    
+    border-radius: 5px;
+    
+}
+
+.user{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.con{
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    text-align: center;
+}
+
+.rol, .hol{
+    background-color: rgb(3, 219, 219);
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+.di{
+    position: absolute;
+    bottom: 40%;
+    left: 47%;
+    text-align: center;
+    z-index: 1;
+}
+
+.poi, .sc-1, .sc-2, .coun1, .coun2, .wo{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hidden{
+    display: none;
+}
+
+.act{
+    opacity:0.50;
+}

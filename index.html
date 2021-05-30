@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="board">
+            
+            <p class="win">Game is going on!</p>
+            <button class="new" onclick="reset()">New Game</button>
+            
+            <img src="pic/d-1.jpg" class="di">
+            <div class="con">
+            <button class="rol" onclick="roll()">Roll Dice</button>
+            <button class="hol" onclick="hold()">Hold</button>
+            </div>
+
+            <div class="players">
+            <div class="player-1 gem ">
+                <img src="pic/man.png" class="user">
+                <p class="poi">Your Point</p>
+                <span class="sc-1">-</span><br><br>
+                <span class="wo">Total Point :</span>
+                <span class="coun1">-</span>
+
+            </div>
+
+            <div class="player-2 gem act">
+                <img src="pic/man.png" class="user">
+                <p class="poi">Your Point</p>
+                <span class="sc-2">-</span><br><br>
+                <span class="wo">Total Point :</span>
+                <span class="coun2">-</span>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/dice.js"></script>
+</body>
+</html>
